@@ -220,6 +220,12 @@ if (reversed == null) { reversed = false; }
 	this.frame_0 = function() {
 		var _this = this;
 		/*
+		Stop a Movie Clip/Video
+		Stops the specified movie clip or video.
+		*/
+		_this.stop();
+		var _this = this;
+		/*
 		Clicking on the specified symbol instance executes a function.
 		*/
 		_this.startanti.on('click', function(){
@@ -238,10 +244,25 @@ if (reversed == null) { reversed = false; }
 		Moves the playhead to the specified frame label in the timeline and continues playback from that frame.
 		Can be used on the main timeline or on movie clip timelines.
 		*/
-		_this.gotoAndPlay('StartSquash');
+		_this.gotoAndPlay('EndSquash');
 		});
 	}
 	this.frame_80 = function() {
+		var _this = this;
+		/*
+		Stop a Movie Clip/Video
+		Stops the specified movie clip or video.
+		*/
+		_this.stop();
+		
+		var _this = this;
+		/*
+		Stop a Movie Clip/Video
+		Stops the specified movie clip or video.
+		*/
+		_this.stop();
+		
+		
 		var _this = this;
 		/*
 		Stop a Movie Clip/Video
