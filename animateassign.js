@@ -210,7 +210,7 @@ if (reversed == null) { reversed = false; }
 	var props = new Object();
 	props.mode = mode;
 	props.startPosition = startPosition;
-	props.labels = {EndSquash:1,startanti:45};
+	props.labels = {EndSquash:1,startanti:81};
 	props.loop = loop;
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
@@ -303,7 +303,7 @@ if (reversed == null) { reversed = false; }
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(184));
+	this.timeline.addTween(cjs.Tween.get(this.shape).to({_off:true},181).wait(3));
 
 	// Antic
 	this.instance = new lib.Tween13("synched",0);
@@ -359,7 +359,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(716.4,512.8,423.69999999999993,162.30000000000007);
+p.nominalBounds = new cjs.Rectangle(0,0,1140.1,675.1);
 // library properties:
 lib.properties = {
 	id: '35CC9212E37145C2922865A23810FEEC',
